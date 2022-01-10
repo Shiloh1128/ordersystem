@@ -26,7 +26,7 @@ namespace Order_system
         }
         private void testbtn_Click(object sender, EventArgs e)
         {
-            // MessageBox.Show(((Button)sender).Text);
+            MessageBox.Show(((Button)sender).Text);
             addData += ((Button)sender).Text;
         }
 
